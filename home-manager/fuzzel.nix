@@ -87,7 +87,7 @@ let
       match = "f7768eff";
     };
   };
-  currentTheme = "Solarized";
+  currentTheme = "RosePine";
   themeColors = themes.${currentTheme};
 in
 {

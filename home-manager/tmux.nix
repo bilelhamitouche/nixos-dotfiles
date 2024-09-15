@@ -94,7 +94,7 @@ let
       gray = "#292e42";
     };
   };
-  currentTheme = "Solarized";
+  currentTheme = "RosePine";
   themeColors = themes.${currentTheme};
 in
 {

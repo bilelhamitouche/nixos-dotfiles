@@ -199,7 +199,7 @@ let
       active = "#7aa2f7";
     };
   };
-  currentTheme = "Solarized";
+  currentTheme = "RosePine";
   themeColors = themes.${currentTheme};
 in
 {
