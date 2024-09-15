@@ -17,10 +17,10 @@
         Nightfox = "nightfox";
         OneDark = "onedark";
         RosePine = "rose-pine-main";
-        Solarized = "solarized";
+        Solarized = "NeoSolarized";
         TokyoNight = "tokyonight-night";
       };
-      currentTheme = "Catppuccin";
+      currentTheme = "Solarized";
       themeColors = themes.${currentTheme};
     in
     {

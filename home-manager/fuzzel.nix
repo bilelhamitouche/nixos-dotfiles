@@ -87,7 +87,7 @@ let
       match = "f7768eff";
     };
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Solarized";
   themeColors = themes.${currentTheme};
 in
 {
