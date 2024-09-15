@@ -9,6 +9,7 @@
     ./fuzzel.nix
     ./hyprland.nix
     ./kitty.nix
+    ./lazygit.nix
     ./mako.nix
     ./neovim.nix
     ./tmux.nix
