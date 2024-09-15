@@ -222,6 +222,7 @@
     zig
 
     # TUI apps
+    lazygit
     fastfetch
     cmatrix
     htop
