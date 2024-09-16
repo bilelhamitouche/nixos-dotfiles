@@ -59,7 +59,7 @@ let
       inactive = "rgba(565f89ff)";
     };
   };
-  currentTheme = "RosePine";
+  currentTheme = "GruvboxDark";
   themeColors = themes.${currentTheme};
 in
 {

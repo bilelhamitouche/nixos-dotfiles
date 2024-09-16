@@ -87,7 +87,7 @@ let
       match = "f7768eff";
     };
   };
-  currentTheme = "RosePine";
+  currentTheme = "GruvboxDark";
   themeColors = themes.${currentTheme};
 in
 {

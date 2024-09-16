@@ -73,7 +73,7 @@ let
       highlight = "#7aa2f7ff";
     };
   };
-  currentTheme = "RosePine";
+  currentTheme = "GruvboxDark";
   themeColors = themes.${currentTheme};
 in
 {
