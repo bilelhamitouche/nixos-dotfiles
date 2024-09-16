@@ -95,7 +95,7 @@ in
     enable = true;
     settings = {
       main = {
-        font = "MesloLGS Nerd Font:bold:size=10";
+        font = "GeistMono Nerd Font:bold:size=10";
         icons-enabled = true;
         fuzzy = true;
         anchor = "center";

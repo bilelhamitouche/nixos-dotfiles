@@ -30,7 +30,7 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "MesloLGS Nerd Font Bold";
+      name = "Geist NF Bold";
       size = 11.0;
     };
     theme = themeColors;
