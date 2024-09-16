@@ -91,6 +91,11 @@
         }
 
         {
+          plugin = which-key-nvim;
+          config = luaFile ../nvim/plugins/which-key.lua;
+        }
+
+        {
           plugin = nvim-treesitter;
           config = luaFile ../nvim/plugins/nvim-treesitter.lua;
         }
