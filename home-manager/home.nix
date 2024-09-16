@@ -4,6 +4,7 @@
 
   imports = [
     ./bash.nix
+    ./cava.nix
     ./git.nix
     ./gtk.nix
     ./fuzzel.nix
