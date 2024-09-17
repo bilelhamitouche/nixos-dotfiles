@@ -95,7 +95,7 @@ in
     enable = true;
     settings = {
       main = {
-        font = "JetBrainsMono Nerd Font:bold:size=10";
+        font = "RecMonoCasual Nerd Font:medium:size=10";
         icons-enabled = true;
         fuzzy = true;
         anchor = "center";
