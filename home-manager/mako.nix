@@ -73,7 +73,7 @@ let
       highlight = "#7aa2f7ff";
     };
   };
-  currentTheme = "OneDark";
+  currentTheme = "Dracula";
   themeColors = themes.${currentTheme};
 in
 {

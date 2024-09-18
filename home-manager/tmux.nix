@@ -94,7 +94,7 @@ let
       gray = "#292e42";
     };
   };
-  currentTheme = "OneDark";
+  currentTheme = "Dracula";
   themeColors = themes.${currentTheme};
 in
 {

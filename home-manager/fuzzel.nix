@@ -87,7 +87,7 @@ let
       match = "f7768eff";
     };
   };
-  currentTheme = "OneDark";
+  currentTheme = "Dracula";
   themeColors = themes.${currentTheme};
 in
 {
