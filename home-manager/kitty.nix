@@ -22,7 +22,7 @@ let
     Solarized = "Solarized Dark";
     TokyoNight = "Tokyo Night";
   };
-  currentTheme = "GruvboxDark";
+  currentTheme = "OneDark";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in
@@ -30,7 +30,7 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "RecMonoCasual Nerd Font Bold";
+      name = "GeistMono NF Bold";
       size = 11.0;
     };
     theme = themeColors;

@@ -87,7 +87,7 @@ let
       match = "f7768eff";
     };
   };
-  currentTheme = "GruvboxDark";
+  currentTheme = "OneDark";
   themeColors = themes.${currentTheme};
 in
 {
@@ -95,7 +95,7 @@ in
     enable = true;
     settings = {
       main = {
-        font = "RecMonoCasual Nerd Font:medium:size=10";
+        font = "GeistMono Nerd Font:bold:size=10";
         icons-enabled = true;
         fuzzy = true;
         anchor = "center";
