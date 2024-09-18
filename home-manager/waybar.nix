@@ -396,7 +396,7 @@ in
       	color: ${themeColors.orange};
             }
 
-             #tooltip {
+             tooltip {
                background-color: ${themeColors.background};
                color: ${themeColors.foreground};
             }
