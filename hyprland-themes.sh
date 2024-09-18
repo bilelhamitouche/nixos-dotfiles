@@ -38,7 +38,7 @@ if [ "$choice" ]; then
   # tmux
   sed -i "s/currentTheme = .*/currentTheme = \"$choice\";/g" ~/.config/nixos/home-manager/tmux.nix
   # Home manager
-  cd ~/.config/nixos/ && home-manager switch --flake .
+  cd ~/.config/nixos/ && git add -u && home-manager switch --flake .
   # Wallpaper
   swww img ~/.config/nixos/wallpapers/$choice/$(ls ~/.config/nixos/wallpapers/$choice | shuf -n1) --transition-type wave
 else 
