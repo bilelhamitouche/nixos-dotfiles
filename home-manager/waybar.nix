@@ -396,6 +396,11 @@ in
       	color: ${themeColors.orange};
             }
 
+             #tooltip {
+               background-color: ${themeColors.background};
+               color: ${themeColors.foreground};
+            }
+
             #temperature {
       	color: ${themeColors.red};
             }
