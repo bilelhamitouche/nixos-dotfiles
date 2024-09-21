@@ -20,7 +20,7 @@
         Solarized = "NeoSolarized";
         TokyoNight = "tokyonight-night";
       };
-      currentTheme = "Dracula";
+      currentTheme = "TokyoNight";
       themeColors = themes.${currentTheme};
     in
     {

@@ -22,7 +22,7 @@ let
     Solarized = "Solarized Dark";
     TokyoNight = "Tokyo Night";
   };
-  currentTheme = "Dracula";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in
@@ -30,8 +30,8 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "GeistMono NF Bold";
-      size = 11.0;
+      name = "FiraCode Nerd Font SemBd";
+      size = 10.8;
     };
     theme = themeColors;
     settings = {
