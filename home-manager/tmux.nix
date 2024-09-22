@@ -49,7 +49,7 @@ let
       foreground = "#f8f8f2";
       highlight = "#fc9867";
       highlight2 = "#a6e22e";
-      gray = "#363b54";
+      gray = "#272822";
     };
     Nord = {
       background = "#2e3440";
@@ -94,7 +94,7 @@ let
       gray = "#292e42";
     };
   };
-  currentTheme = "TokyoNight";
+  currentTheme = "MonokaiPro";
   themeColors = themes.${currentTheme};
 in
 {

@@ -33,8 +33,8 @@ let
     Solarized = "oomox-Solarized";
     TokyoNight = "oomox-TokyoNight";
   };
-  currentTheme = "TokyoNight";
-  currentIconTheme = "TokyoNight";
+  currentTheme = "MonokaiPro";
+  currentIconTheme = "MonokaiPro";
   themeColors = themes.${currentTheme};
   iconThemeColors = iconThemes.${currentIconTheme};
 in

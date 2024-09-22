@@ -73,13 +73,13 @@ let
       highlight = "#7aa2f7ff";
     };
   };
-  currentTheme = "TokyoNight";
+  currentTheme = "MonokaiPro";
   themeColors = themes.${currentTheme};
 in
 {
   services.mako = {
     enable = true;
-    font = "FiraCode Nerd Font Bold 9";
+    font = "GeistMono Nerd Font Bold 9";
     icons = true;
     textColor = themeColors.foreground;
     backgroundColor = themeColors.background;
