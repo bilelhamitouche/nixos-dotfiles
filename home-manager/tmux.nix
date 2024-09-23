@@ -48,7 +48,7 @@ let
       background = "#2d2a2e";
       foreground = "#f8f8f2";
       highlight = "#fc9867";
-      highlight2 = "#a6e22e";
+      highlight2 = "#7d8c92";
       gray = "#272822";
     };
     Nord = {
