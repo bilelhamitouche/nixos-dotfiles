@@ -22,7 +22,7 @@ let
     Solarized = "Solarized Dark";
     TokyoNight = "Tokyo Night";
   };
-  currentTheme = "MonokaiPro";
+  currentTheme = "Kanagawa";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in

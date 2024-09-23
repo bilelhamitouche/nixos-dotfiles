@@ -32,10 +32,10 @@ let
     };
     Kanagawa = {
       background = "#272822";
-      foreground = "#f8f8f2";
-      highlight = "#66d9ef";
-      highlight2 = "#e6db74";
-      gray = "#282828";
+      foreground = "#dcd7ba";
+      highlight = "#2d4f67";
+      highlight2 = "#dca561";
+      gray = "#2a2a36";
     };
     Monokai = {
       background = "#272822";
@@ -94,7 +94,7 @@ let
       gray = "#292e42";
     };
   };
-  currentTheme = "MonokaiPro";
+  currentTheme = "Kanagawa";
   themeColors = themes.${currentTheme};
 in
 {

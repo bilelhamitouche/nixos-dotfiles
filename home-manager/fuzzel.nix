@@ -87,7 +87,7 @@ let
       match = "f7768eff";
     };
   };
-  currentTheme = "MonokaiPro";
+  currentTheme = "Kanagawa";
   themeColors = themes.${currentTheme};
 in
 {

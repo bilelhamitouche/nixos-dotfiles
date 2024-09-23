@@ -73,7 +73,7 @@ let
       highlight = "#7aa2f7ff";
     };
   };
-  currentTheme = "MonokaiPro";
+  currentTheme = "Kanagawa";
   themeColors = themes.${currentTheme};
 in
 {
