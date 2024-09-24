@@ -73,13 +73,13 @@ let
       highlight = "#7aa2f7ff";
     };
   };
-  currentTheme = "Kanagawa";
+  currentTheme = "Ayu";
   themeColors = themes.${currentTheme};
 in
 {
   services.mako = {
     enable = true;
-    font = "GeistMono Nerd Font Bold 9";
+    font = "Hack Nerd Font Bold 9";
     icons = true;
     textColor = themeColors.foreground;
     backgroundColor = themeColors.background;

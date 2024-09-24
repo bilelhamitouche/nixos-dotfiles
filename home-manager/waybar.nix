@@ -199,7 +199,7 @@ let
       active = "#7aa2f7";
     };
   };
-  currentTheme = "Kanagawa";
+  currentTheme = "Ayu";
   themeColors = themes.${currentTheme};
 in
 {
@@ -300,7 +300,7 @@ in
     };
     style = ''
         * {
-            font-family: GeistMono Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+            font-family: Hack Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
             font-size: 12px;
             font-weight: bold;
             background: rgba(0, 0, 0, 0);

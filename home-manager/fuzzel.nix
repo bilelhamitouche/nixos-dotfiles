@@ -86,8 +86,14 @@ let
       highlight = "7aa2f7ff";
       match = "f7768eff";
     };
+    Zenburn = {
+      background = "1a1b26ff";
+      foreground = "c0caf5ff";
+      highlight = "7aa2f7ff";
+      match = "f7768eff";
+    };
   };
-  currentTheme = "Kanagawa";
+  currentTheme = "Ayu";
   themeColors = themes.${currentTheme};
 in
 {
@@ -95,7 +101,7 @@ in
     enable = true;
     settings = {
       main = {
-        font = "GeistMono Nerd Font:bold:size=10";
+        font = "Hack Nerd Font:bold:size=10";
         icons-enabled = true;
         fuzzy = true;
         anchor = "center";

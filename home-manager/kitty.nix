@@ -21,8 +21,9 @@ let
     RosePine = "Rosé Pine";
     Solarized = "Solarized Dark";
     TokyoNight = "Tokyo Night";
+    Zenburn = "Zenburn";
   };
-  currentTheme = "Kanagawa";
+  currentTheme = "Ayu";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in
@@ -30,8 +31,8 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "GeistMono NF Bold";
-      size = 10.8;
+      name = "Hack Nerd Font Bold";
+      size = 11.0;
     };
     theme = themeColors;
     settings = {
