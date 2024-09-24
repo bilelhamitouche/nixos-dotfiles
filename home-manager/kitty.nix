@@ -31,8 +31,8 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "JetBrainsMono NF Bold";
-      size = 11.5;
+      name = "Hasklug Nerd Font Bold";
+      size = 11.0;
     };
     theme = themeColors;
     settings = {

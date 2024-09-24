@@ -300,7 +300,7 @@ in
     };
     style = ''
         * {
-            font-family: JetBrainsMono Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+            font-family: Hasklug Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
             font-size: 12px;
             font-weight: bold;
             background: rgba(0, 0, 0, 0);
