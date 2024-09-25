@@ -20,7 +20,7 @@
         Solarized = "NeoSolarized";
         TokyoNight = "tokyonight-night";
       };
-      currentTheme = "Dracula";
+      currentTheme = "Catppuccin";
       themeColors = themes.${currentTheme};
     in
     {
@@ -48,6 +48,7 @@
         tokyonight-nvim
         phha-zenburn
         vscode-nvim
+        material-nvim
 
         nvim-web-devicons
         cmp-nvim-lsp
