@@ -36,6 +36,10 @@ lspconfig.emmet_ls.setup({
 	capabilities = capabilities,
 })
 
+lspconfig.gopls.setup({
+	capabilities = capabilities,
+})
+
 lspconfig.html.setup({
 	capabilities = capabilities,
 })
