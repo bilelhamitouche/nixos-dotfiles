@@ -79,7 +79,7 @@ in
 {
   services.mako = {
     enable = true;
-    font = "JetBrainsMono Nerd Font Bold 9";
+    font = "CaskaydiaCove Nerd Font Bold 9";
     icons = true;
     textColor = themeColors.foreground;
     backgroundColor = themeColors.background;
