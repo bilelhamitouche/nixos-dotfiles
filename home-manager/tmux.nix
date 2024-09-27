@@ -94,7 +94,7 @@ let
       gray = "#292e42";
     };
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Monokai";
   themeColors = themes.${currentTheme};
 in
 {

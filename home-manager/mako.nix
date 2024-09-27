@@ -73,7 +73,7 @@ let
       highlight = "#7aa2f7ff";
     };
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Monokai";
   themeColors = themes.${currentTheme};
 in
 {
