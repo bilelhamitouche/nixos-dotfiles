@@ -59,7 +59,7 @@ let
       inactive = "rgba(565f89ff)";
     };
   };
-  currentTheme = "Monokai";
+  currentTheme = "OneDark";
   themeColors = themes.${currentTheme};
 in
 {

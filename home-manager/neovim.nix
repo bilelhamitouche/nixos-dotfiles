@@ -20,7 +20,7 @@
         Solarized = "NeoSolarized";
         TokyoNight = "tokyonight-night";
       };
-      currentTheme = "Monokai";
+      currentTheme = "OneDark";
       themeColors = themes.${currentTheme};
     in
     {
