@@ -23,7 +23,7 @@ let
     TokyoNight = "Tokyo Night";
     Zenburn = "Zenburn";
   };
-  currentTheme = "OneDark";
+  currentTheme = "Nightfox";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in

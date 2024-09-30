@@ -93,7 +93,7 @@ let
       match = "f7768eff";
     };
   };
-  currentTheme = "OneDark";
+  currentTheme = "Nightfox";
   themeColors = themes.${currentTheme};
 in
 {
@@ -101,7 +101,7 @@ in
     enable = true;
     settings = {
       main = {
-        font = "CaskaydiaCove Nerd Font:bold:size=10";
+        font = "CaskaydiaCove Nerd Font:bold:size=10.5";
         icons-enabled = true;
         fuzzy = true;
         anchor = "center";

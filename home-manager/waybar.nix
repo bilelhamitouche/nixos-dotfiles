@@ -199,7 +199,7 @@ let
       active = "#7aa2f7";
     };
   };
-  currentTheme = "OneDark";
+  currentTheme = "Nightfox";
   themeColors = themes.${currentTheme};
 in
 {

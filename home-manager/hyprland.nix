@@ -59,7 +59,7 @@ let
       inactive = "rgba(565f89ff)";
     };
   };
-  currentTheme = "OneDark";
+  currentTheme = "Nightfox";
   themeColors = themes.${currentTheme};
 in
 {
