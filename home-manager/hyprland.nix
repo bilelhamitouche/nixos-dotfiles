@@ -59,7 +59,7 @@ let
       inactive = "rgba(565f89ff)";
     };
   };
-  currentTheme = "Nightfox";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
 in
 {

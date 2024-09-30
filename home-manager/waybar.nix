@@ -199,7 +199,7 @@ let
       active = "#7aa2f7";
     };
   };
-  currentTheme = "Nightfox";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
 in
 {
@@ -300,7 +300,7 @@ in
     };
     style = ''
         * {
-            font-family: CaskaydiaCove Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+            font-family: GeistMono Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
             font-size: 12px;
             font-weight: bold;
             background: rgba(0, 0, 0, 0);

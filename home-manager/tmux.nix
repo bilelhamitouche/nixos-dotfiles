@@ -94,7 +94,7 @@ let
       gray = "#292e42";
     };
   };
-  currentTheme = "Nightfox";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
 in
 {
