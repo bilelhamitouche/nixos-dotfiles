@@ -23,7 +23,7 @@ let
     TokyoNight = "Tokyo Night";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Zenburn";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in
@@ -31,8 +31,8 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "GeistMono NF Bold";
-      size = 11.0;
+      name = "JetBrainsMono NF Bold";
+      size = 11.5;
     };
     theme = themeColors;
     settings = {

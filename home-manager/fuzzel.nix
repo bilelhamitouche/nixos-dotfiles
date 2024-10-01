@@ -93,7 +93,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Zenburn";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
 in
 {
@@ -101,7 +101,7 @@ in
     enable = true;
     settings = {
       main = {
-        font = "GeistMono Nerd Font:bold:size=10.5";
+        font = "JetBrainsMono Nerd Font:bold:size=10";
         icons-enabled = true;
         fuzzy = true;
         anchor = "center";

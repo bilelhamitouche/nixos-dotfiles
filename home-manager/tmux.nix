@@ -101,7 +101,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "Zenburn";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
 in
 {
