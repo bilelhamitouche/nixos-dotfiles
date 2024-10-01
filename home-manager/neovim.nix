@@ -19,8 +19,9 @@
         RosePine = "rose-pine-main";
         Solarized = "NeoSolarized";
         TokyoNight = "tokyonight-night";
+        Zenburn = "zenburn";
       };
-      currentTheme = "TokyoNight";
+      currentTheme = "Zenburn";
       themeColors = themes.${currentTheme};
     in
     {

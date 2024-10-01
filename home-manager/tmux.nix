@@ -93,8 +93,15 @@ let
       highlight2 = "#9ece6a";
       gray = "#292e42";
     };
+    Zenburn = {
+      background = "#3f3f3f";
+      foreground = "#dcdccc";
+      highlight = "#f0dfaf";
+      highlight2 = "#dfaf8f";
+      gray = "#4f4f4f";
+    };
   };
-  currentTheme = "TokyoNight";
+  currentTheme = "Zenburn";
   themeColors = themes.${currentTheme};
 in
 {

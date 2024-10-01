@@ -87,13 +87,13 @@ let
       match = "f7768eff";
     };
     Zenburn = {
-      background = "1a1b26ff";
-      foreground = "c0caf5ff";
-      highlight = "7aa2f7ff";
-      match = "f7768eff";
+      background = "3f3f3fff";
+      foreground = "dcdcccff";
+      highlight = "f0dfafff";
+      match = "cc9393ff";
     };
   };
-  currentTheme = "TokyoNight";
+  currentTheme = "Zenburn";
   themeColors = themes.${currentTheme};
 in
 {

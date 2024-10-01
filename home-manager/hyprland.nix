@@ -58,8 +58,12 @@ let
       active = "rgba(7aa2f7ff) rgba(89ddffff) 45deg";
       inactive = "rgba(565f89ff)";
     };
+    Zenburn = {
+      active = "rgba(f0dfafff) rgba(dfaf8fff) 45deg";
+      inactive = "rgba(5f5f5fff)";
+    };
   };
-  currentTheme = "TokyoNight";
+  currentTheme = "Zenburn";
   themeColors = themes.${currentTheme};
 in
 {

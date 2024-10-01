@@ -15,6 +15,7 @@ declare -a themes=(
   "RosePine"
   "Solarized"
   "TokyoNight"
+  "Zenburn"
 )
 
 choice=$(printf '%s\n' "${themes[@]}" | fuzzel --dmenu)

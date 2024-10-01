@@ -198,8 +198,22 @@ let
       inactive = "#565f89";
       active = "#7aa2f7";
     };
+    Zenburn = {
+      background = "#3f3f3f";
+      foreground = "#dcdccc";
+      red = "#cc9393";
+      green = "#7f9f7f";
+      yellow = "#f0dfaf";
+      orange = "#dfaf8f";
+      blue = "#6ca0a3";
+      magenta = "#dc8cc3";
+      cyan = "#93e0e3";
+      gray = "#5f5f5f";
+      inactive = "#5f5f5f";
+      active = "#f0dfaf";
+    };
   };
-  currentTheme = "TokyoNight";
+  currentTheme = "Zenburn";
   themeColors = themes.${currentTheme};
 in
 {
