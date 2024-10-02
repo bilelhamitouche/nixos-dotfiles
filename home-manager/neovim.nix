@@ -21,7 +21,7 @@
         TokyoNight = "tokyonight-night";
         Zenburn = "zenburn";
       };
-      currentTheme = "TokyoNight";
+      currentTheme = "Nord";
       themeColors = themes.${currentTheme};
     in
     {
