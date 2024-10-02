@@ -78,7 +78,7 @@ let
       highlight = "#f0dfafff";
     };
   };
-  currentTheme = "Nord";
+  currentTheme = "GruvboxDark";
   themeColors = themes.${currentTheme};
 in
 {

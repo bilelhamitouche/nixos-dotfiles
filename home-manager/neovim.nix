@@ -21,7 +21,7 @@
         TokyoNight = "tokyonight-night";
         Zenburn = "zenburn";
       };
-      currentTheme = "Nord";
+      currentTheme = "GruvboxDark";
       themeColors = themes.${currentTheme};
     in
     {

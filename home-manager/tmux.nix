@@ -101,7 +101,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "Nord";
+  currentTheme = "GruvboxDark";
   themeColors = themes.${currentTheme};
 in
 {

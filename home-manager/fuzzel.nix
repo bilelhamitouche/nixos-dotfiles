@@ -93,7 +93,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Nord";
+  currentTheme = "GruvboxDark";
   themeColors = themes.${currentTheme};
 in
 {

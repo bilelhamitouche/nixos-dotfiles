@@ -213,7 +213,7 @@ let
       active = "#f0dfaf";
     };
   };
-  currentTheme = "Nord";
+  currentTheme = "GruvboxDark";
   themeColors = themes.${currentTheme};
 in
 {
