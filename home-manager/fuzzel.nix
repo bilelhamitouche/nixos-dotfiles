@@ -86,6 +86,12 @@ let
       highlight = "7aa2f7ff";
       match = "f7768eff";
     };
+    Vscode = {
+      background = "1e1e1eff";
+      foreground = "d4d4d4ff";
+      highlight = "569cd6ff";
+      match = "f44747ff";
+    };
     Zenburn = {
       background = "3f3f3fff";
       foreground = "dcdcccff";
@@ -93,7 +99,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Vscode";
   themeColors = themes.${currentTheme};
 in
 {

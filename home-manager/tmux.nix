@@ -93,6 +93,13 @@ let
       highlight2 = "#9ece6a";
       gray = "#292e42";
     };
+    Vscode = {
+      background = "#1e1e1e";
+      foreground = "#d4d4d4";
+      highlight = "#569cd6";
+      highlight2 = "#dcdcaa";
+      gray = "#333333";
+    };
     Zenburn = {
       background = "#3f3f3f";
       foreground = "#dcdccc";
@@ -101,7 +108,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Vscode";
   themeColors = themes.${currentTheme};
 in
 {

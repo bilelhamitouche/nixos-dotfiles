@@ -16,13 +16,12 @@
         Nord = "nord";
         Nightfox = "nightfox";
         OneDark = "onedark";
-        Oxocarbon = "oxocarbon";
         RosePine = "rose-pine-main";
         Solarized = "NeoSolarized";
         TokyoNight = "tokyonight-night";
         Zenburn = "zenburn";
       };
-      currentTheme = "Catppuccin";
+      currentTheme = "Vscode";
       themeColors = themes.${currentTheme};
     in
     {

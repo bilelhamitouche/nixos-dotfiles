@@ -198,6 +198,20 @@ let
       inactive = "#565f89";
       active = "#7aa2f7";
     };
+    Vscode = {
+      background = "#1e1e1e";
+      foreground = "#d4d4d4";
+      red = "#f44747";
+      green = "#6a9955";
+      yellow = "#dcdcaa";
+      orange = "#b5cea8";
+      blue = "#569cd6";
+      magenta = "#4ec9b0";
+      cyan = "#9cdcfe";
+      gray = "#858585";
+      inactive = "#858585";
+      active = "#569cd6";
+    };
     Zenburn = {
       background = "#3f3f3f";
       foreground = "#dcdccc";
@@ -213,7 +227,7 @@ let
       active = "#f0dfaf";
     };
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Vscode";
   themeColors = themes.${currentTheme};
 in
 {

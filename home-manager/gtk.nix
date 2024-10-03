@@ -35,8 +35,8 @@ let
     TokyoNight = "oomox-TokyoNight";
     Zenburn = "oomox-Zenburn";
   };
-  currentTheme = "Catppuccin";
-  currentIconTheme = "Catppuccin";
+  currentTheme = "Vscode";
+  currentIconTheme = "Vscode";
   themeColors = themes.${currentTheme};
   iconThemeColors = iconThemes.${currentIconTheme};
 in
