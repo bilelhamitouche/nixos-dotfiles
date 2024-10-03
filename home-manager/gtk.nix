@@ -35,8 +35,8 @@ let
     TokyoNight = "oomox-TokyoNight";
     Zenburn = "oomox-Zenburn";
   };
-  currentTheme = "GruvboxDark";
-  currentIconTheme = "GruvboxDark";
+  currentTheme = "Catppuccin";
+  currentIconTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
   iconThemeColors = iconThemes.${currentIconTheme};
 in

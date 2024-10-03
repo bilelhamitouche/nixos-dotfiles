@@ -21,7 +21,7 @@
         TokyoNight = "tokyonight-night";
         Zenburn = "zenburn";
       };
-      currentTheme = "GruvboxDark";
+      currentTheme = "Catppuccin";
       themeColors = themes.${currentTheme};
     in
     {
@@ -50,6 +50,7 @@
         phha-zenburn
         vscode-nvim
         material-nvim
+        modus-themes-nvim
 
         nvim-web-devicons
         cmp-nvim-lsp

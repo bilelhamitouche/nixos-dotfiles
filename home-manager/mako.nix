@@ -78,13 +78,13 @@ let
       highlight = "#f0dfafff";
     };
   };
-  currentTheme = "GruvboxDark";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {
   services.mako = {
     enable = true;
-    font = "CaskaydiaCove Nerd Font Bold 9";
+    font = "JetBrainsMono Nerd Font Bold 9";
     icons = true;
     textColor = themeColors.foreground;
     backgroundColor = themeColors.background;

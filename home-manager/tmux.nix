@@ -101,7 +101,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "GruvboxDark";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {

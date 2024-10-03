@@ -213,7 +213,7 @@ let
       active = "#f0dfaf";
     };
   };
-  currentTheme = "GruvboxDark";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {
@@ -314,7 +314,7 @@ in
     };
     style = ''
         * {
-            font-family: CaskaydiaCove Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+            font-family: JetBrainsMono Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
             font-size: 12px;
             font-weight: bold;
             background: rgba(0, 0, 0, 0);

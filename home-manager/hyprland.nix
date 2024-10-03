@@ -63,7 +63,7 @@ let
       inactive = "rgba(5f5f5fff)";
     };
   };
-  currentTheme = "GruvboxDark";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {
