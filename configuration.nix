@@ -181,6 +181,7 @@
 
     # Terminals
     kitty
+    wezterm
     foot
 
     # Text editors

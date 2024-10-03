@@ -15,6 +15,7 @@
     ./neovim.nix
     ./tmux.nix
     ./waybar.nix
+    ./wezterm.nix
   ];
 
   # User information
