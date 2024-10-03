@@ -83,7 +83,7 @@ let
       highlight = "#f0dfafff";
     };
   };
-  currentTheme = "Vscode";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {

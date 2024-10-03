@@ -99,7 +99,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Vscode";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {

@@ -16,6 +16,7 @@ let
     OneDark = "OneDark";
     Solarized = "Solarized";
     TokyoNight = "TokyoNight";
+    Vscode = "Vscode";
     Zenburn = "Zenburn";
   };
   iconThemes = {
@@ -33,10 +34,11 @@ let
     RosePine = "oomox-RosePine";
     Solarized = "oomox-Solarized";
     TokyoNight = "oomox-TokyoNight";
+    Vscode = "oomox-Vscode";
     Zenburn = "oomox-Zenburn";
   };
-  currentTheme = "Vscode";
-  currentIconTheme = "Vscode";
+  currentTheme = "Catppuccin";
+  currentIconTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
   iconThemeColors = iconThemes.${currentIconTheme};
 in

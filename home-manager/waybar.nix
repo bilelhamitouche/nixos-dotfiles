@@ -227,7 +227,7 @@ let
       active = "#f0dfaf";
     };
   };
-  currentTheme = "Vscode";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {

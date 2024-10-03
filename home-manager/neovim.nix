@@ -19,9 +19,10 @@
         RosePine = "rose-pine-main";
         Solarized = "NeoSolarized";
         TokyoNight = "tokyonight-night";
+        Vscode = "vscode";
         Zenburn = "zenburn";
       };
-      currentTheme = "Vscode";
+      currentTheme = "Catppuccin";
       themeColors = themes.${currentTheme};
     in
     {

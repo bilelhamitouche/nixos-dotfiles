@@ -108,7 +108,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "Vscode";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {
