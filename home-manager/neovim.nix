@@ -16,6 +16,7 @@
         Nord = "nord";
         Nightfox = "nightfox";
         OneDark = "onedark";
+        Oxocarbon = "oxocarbon";
         RosePine = "rose-pine-main";
         Solarized = "NeoSolarized";
         TokyoNight = "tokyonight-night";
@@ -50,6 +51,7 @@
         phha-zenburn
         vscode-nvim
         material-nvim
+        oxocarbon-nvim
         modus-themes-nvim
 
         nvim-web-devicons
