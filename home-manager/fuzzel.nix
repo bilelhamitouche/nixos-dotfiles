@@ -99,7 +99,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Everforest";
+  currentTheme = "OneDark";
   themeColors = themes.${currentTheme};
 in
 {

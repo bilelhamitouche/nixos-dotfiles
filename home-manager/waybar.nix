@@ -227,7 +227,7 @@ let
       active = "#f0dfaf";
     };
   };
-  currentTheme = "Everforest";
+  currentTheme = "OneDark";
   themeColors = themes.${currentTheme};
 in
 {

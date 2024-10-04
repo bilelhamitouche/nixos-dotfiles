@@ -19,7 +19,7 @@ let
     Vscode = "Dark+";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Everforest";
+  currentTheme = "OneDark";
   themeColors = themes.${currentTheme};
 in
 {
@@ -31,6 +31,7 @@ in
         font_size = 11.0,
         line_height = 1.3,
         default_cursor_style = "BlinkingBar",
+        bold_brightens_ansi_colors = "No",
         color_scheme = "${themeColors}",
         enable_tab_bar = false,
         enable_wayland = false,

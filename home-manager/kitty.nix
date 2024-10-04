@@ -24,7 +24,7 @@ let
     Vscode = "VSCode_Dark";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Everforest";
+  currentTheme = "OneDark";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in

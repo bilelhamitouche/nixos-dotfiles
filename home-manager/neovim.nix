@@ -22,7 +22,7 @@
         Vscode = "vscode";
         Zenburn = "zenburn";
       };
-      currentTheme = "Everforest";
+      currentTheme = "OneDark";
       themeColors = themes.${currentTheme};
     in
     {
