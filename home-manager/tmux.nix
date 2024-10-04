@@ -138,6 +138,11 @@ in
           set -g @continuum-restore "on"
           set -g @continuum-save-interval 60
 
+          set -g default-terminal "tmux-256color"
+          set -ga terminal-overrides ",xterm-256color*:Tc"
+
+          set -g @custom_term_xterm_cursor '2'
+
           set -g status on
           set -g status-interval 2
           set -g status-right-length 30
