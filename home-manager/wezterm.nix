@@ -5,7 +5,7 @@ let
     Ayu = "Ayu Dark (Gogh)";
     Catppuccin = "Catppuccin Mocha";
     Dracula = "Dracula (Official)";
-    Everforest = "Everforest Dark Medium (Gogh)";
+    Everforest = "Everforest Dark (Gogh)";
     GruvboxDark = "GruvboxDark";
     Kanagawa = "Kanagawa";
     Monokai = "Monokai (base16)";
@@ -34,6 +34,7 @@ in
         color_scheme = "${themeColors}",
         enable_tab_bar = false,
         enable_wayland = false,
+        window_close_confirmation = "NeverPrompt",
       }
     '';
   };
