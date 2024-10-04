@@ -23,6 +23,13 @@ let
       highlight2 = "#50fa7b";
       gray = "#44475A";
     };
+    Everforest = {
+      background = "#2d353b";
+      foreground = "#d3c6aa";
+      highlight = "#a7c080";
+      highlight2 = "#dbbc7f";
+      gray = "#343f44";
+    };
     GruvboxDark = {
       background = "#282828";
       foreground = "#ebdbb2";
