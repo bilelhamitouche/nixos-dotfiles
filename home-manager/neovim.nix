@@ -22,7 +22,7 @@
         Vscode = "vscode";
         Zenburn = "zenburn";
       };
-      currentTheme = "Catppuccin";
+      currentTheme = "Everforest";
       themeColors = themes.${currentTheme};
     in
     {
@@ -49,6 +49,7 @@
         NeoSolarized
         tokyonight-nvim
         phha-zenburn
+        everforest
         vscode-nvim
         material-nvim
         oxocarbon-nvim

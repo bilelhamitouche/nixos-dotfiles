@@ -27,6 +27,8 @@ if [ "$choice" ]; then
   sed -i "s/currentIconTheme = .*/currentIconTheme = \"$choice\";/g" ~/.config/nixos/home-manager/gtk.nix
   # Kitty
   sed -i "s/currentTheme = .*/currentTheme = \"$choice\";/g" ~/.config/nixos/home-manager/kitty.nix
+  # Wezterm
+  sed -i "s/currentTheme = .*/currentTheme = \"$choice\";/g" ~/.config/nixos/home-manager/wezterm.nix
   # fuzzel
   sed -i "s/currentTheme = .*/currentTheme = \"$choice\";/g" ~/.config/nixos/home-manager/fuzzel.nix
   # Hyprland

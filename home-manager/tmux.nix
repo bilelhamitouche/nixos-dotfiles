@@ -108,7 +108,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
 in
 {

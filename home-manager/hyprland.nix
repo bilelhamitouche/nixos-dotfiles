@@ -67,7 +67,7 @@ let
       inactive = "rgba(5f5f5fff)";
     };
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
 in
 {
@@ -84,7 +84,7 @@ in
         "wl-clipboard"
         "waybar"
       ];
-      "$terminal" = "kitty";
+      "$terminal" = "wezterm";
       "$fileManager" = "thunar";
       "$menu" = "fuzzel";
       env = [

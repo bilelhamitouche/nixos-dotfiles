@@ -10,8 +10,8 @@ let
     Ayu = "Ayu";
     Catppuccin = "Catppuccin-Mocha";
     Dracula = "Dracula";
-    GruvboxDark = "Gruvbox Dark";
     Everforest = "Everforest Dark Medium";
+    GruvboxDark = "Gruvbox Dark";
     Kanagawa = "Kanagawa";
     Monokai = "Monokai";
     MonokaiPro = "Monokai Pro";
@@ -24,7 +24,7 @@ let
     Vscode = "VSCode_Dark";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in
