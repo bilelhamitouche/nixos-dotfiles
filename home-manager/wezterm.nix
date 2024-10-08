@@ -19,7 +19,7 @@ let
     Vscode = "Dark+";
     Zenburn = "Zenburn";
   };
-  currentTheme = "OneDark";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
 in
 {
@@ -27,7 +27,7 @@ in
     enable = true;
     extraConfig = ''
       return {
-        font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Bold" }),
+        font = wezterm.font("GeistMono Nerd Font", { weight = "Black" }),
         font_size = 11.0,
         line_height = 1.3,
         default_cursor_style = "BlinkingBar",

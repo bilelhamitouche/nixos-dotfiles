@@ -227,7 +227,7 @@ let
       active = "#f0dfaf";
     };
   };
-  currentTheme = "OneDark";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
 in
 {
@@ -328,7 +328,7 @@ in
     };
     style = ''
         * {
-            font-family: JetBrainsMono Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+            font-family: GeistMono Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
             font-size: 12px;
             font-weight: bold;
             background: rgba(0, 0, 0, 0);

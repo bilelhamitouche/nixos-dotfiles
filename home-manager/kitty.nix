@@ -24,7 +24,7 @@ let
     Vscode = "VSCode_Dark";
     Zenburn = "Zenburn";
   };
-  currentTheme = "OneDark";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in
@@ -32,7 +32,7 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "JetBrainsMono NF Bold";
+      name = "GeistMono NF Black";
       size = 11.5;
     };
     theme = themeColors;

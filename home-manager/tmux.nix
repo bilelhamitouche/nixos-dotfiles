@@ -115,7 +115,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "OneDark";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
 in
 {

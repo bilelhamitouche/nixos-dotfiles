@@ -67,7 +67,7 @@ let
       inactive = "rgba(5f5f5fff)";
     };
   };
-  currentTheme = "OneDark";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
 in
 {
