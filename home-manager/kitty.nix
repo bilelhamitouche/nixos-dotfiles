@@ -32,7 +32,7 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "JetBrainsMono NF Bold";
+      name = "CaskaydiaCove NF Bold";
       size = 11.5;
     };
     theme = themeColors;
