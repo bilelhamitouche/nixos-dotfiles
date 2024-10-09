@@ -99,7 +99,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Everforest";
+  currentTheme = "Monokai";
   themeColors = themes.${currentTheme};
 in
 {
@@ -107,7 +107,7 @@ in
     enable = true;
     settings = {
       main = {
-        font = "GeistMono Nerd Font:black:size=10";
+        font = "JetBrainsMono Nerd Font:bold:size=10";
         icons-enabled = true;
         fuzzy = true;
         anchor = "center";

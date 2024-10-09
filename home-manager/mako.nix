@@ -83,13 +83,13 @@ let
       highlight = "#f0dfafff";
     };
   };
-  currentTheme = "Everforest";
+  currentTheme = "Monokai";
   themeColors = themes.${currentTheme};
 in
 {
   services.mako = {
     enable = true;
-    font = "GeistMono Nerd Font Black 9";
+    font = "JetBrainsMono Nerd Font Bold 9";
     icons = true;
     textColor = themeColors.foreground;
     backgroundColor = themeColors.background;

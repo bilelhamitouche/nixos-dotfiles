@@ -7,7 +7,7 @@ let
     Dracula = "Dracula (Official)";
     Everforest = "Everforest Dark (Gogh)";
     GruvboxDark = "GruvboxDark";
-    Kanagawa = "Kanagawa";
+    Kanagawa = "Kanagawa (Gogh)";
     Monokai = "Monokai (base16)";
     MonokaiPro = "Monokai Pro (Gogh)";
     Nord = "Nord (Gogh)";
@@ -19,7 +19,7 @@ let
     Vscode = "Dark+";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Everforest";
+  currentTheme = "Monokai";
   themeColors = themes.${currentTheme};
 in
 {
@@ -27,7 +27,7 @@ in
     enable = true;
     extraConfig = ''
       return {
-        font = wezterm.font("GeistMono Nerd Font", { weight = "Black" }),
+        font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Bold" }),
         font_size = 11.0,
         line_height = 1.3,
         default_cursor_style = "BlinkingBar",
