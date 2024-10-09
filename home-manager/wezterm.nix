@@ -29,7 +29,7 @@ in
       return {
         font = wezterm.font("CaskaydiaCove Nerd Font", { weight = "Bold" }),
         font_size = 11.0,
-        line_height = 1.3,
+        line_height = 1.4,
         default_cursor_style = "BlinkingBar",
         bold_brightens_ansi_colors = "No",
         color_scheme = "${themeColors}",
