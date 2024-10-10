@@ -7,6 +7,8 @@ declare -a themes=(
   "GruvboxDark"
   "Everforest"
   "Kanagawa"
+  "ModusOperandi"
+  "ModusVivendi"
   "Monokai"
   "MonokaiPro"
   "Nord"

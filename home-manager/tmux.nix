@@ -44,6 +44,20 @@ let
       highlight2 = "#dca561";
       gray = "#2a2a36";
     };
+    ModusOperandi = {
+      background = "#ffffff";
+      foreground = "#000000";
+      highlight = "#006800";
+      highlight2 = "#0031a9";
+      gray = "#f0f0f0";
+    };
+    ModusVivendi = {
+      background = "#000000";
+      foreground = "#ffffff";
+      highlight = "#44bc44";
+      highlight2 = "#2fafff";
+      gray = "#1e1e1e";
+    };
     Monokai = {
       background = "#272822";
       foreground = "#f8f8f2";
@@ -115,7 +129,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "Monokai";
+  currentTheme = "ModusVivendi";
   themeColors = themes.${currentTheme};
 in
 {

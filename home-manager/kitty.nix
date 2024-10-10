@@ -13,6 +13,8 @@ let
     Everforest = "Everforest Dark Medium";
     GruvboxDark = "Gruvbox Dark";
     Kanagawa = "Kanagawa";
+    ModusOperandi = "Modus Operandi";
+    ModusVivendi = "Modus Vivendi";
     Monokai = "Monokai";
     MonokaiPro = "Monokai Pro";
     Nord = "Nord";
@@ -24,7 +26,7 @@ let
     Vscode = "VSCode_Dark";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Monokai";
+  currentTheme = "ModusVivendi";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in
@@ -32,7 +34,7 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "CaskaydiaCove NF Bold";
+      name = "JetBrainsMono Nerd Font Bold";
       size = 11.5;
     };
     theme = themeColors;

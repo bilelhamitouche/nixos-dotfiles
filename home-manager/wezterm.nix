@@ -8,6 +8,8 @@ let
     Everforest = "Everforest Dark (Gogh)";
     GruvboxDark = "GruvboxDark";
     Kanagawa = "Kanagawa (Gogh)";
+    ModusOperandi = "Modus Operandi (Gogh)";
+    ModusVivendi = "Modus Vivendi (Gogh)";
     Monokai = "Monokai (base16)";
     MonokaiPro = "Monokai Pro (Gogh)";
     Nord = "Nord (Gogh)";
@@ -19,7 +21,7 @@ let
     Vscode = "Dark+";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Monokai";
+  currentTheme = "ModusVivendi";
   themeColors = themes.${currentTheme};
 in
 {
@@ -27,9 +29,9 @@ in
     enable = true;
     extraConfig = ''
       return {
-        font = wezterm.font("CaskaydiaCove Nerd Font", { weight = "Bold" }),
+        font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Bold" }),
         font_size = 11.0,
-        line_height = 1.4,
+        line_height = 1.2,
         default_cursor_style = "BlinkingBar",
         bold_brightens_ansi_colors = "No",
         color_scheme = "${themeColors}",

@@ -8,6 +8,8 @@ let
     GruvboxDark = "GruvboxDark";
     Everforest = "Everforest";
     Kanagawa = "Kanagawa";
+    ModusOperandi = "ModusOperandi";
+    ModusVivendi = "ModusVivendi";
     Monokai = "Monokai";
     MonokaiPro = "MonokaiPro";
     Nord = "Nord";
@@ -26,6 +28,8 @@ let
     GruvboxDark = "oomox-GruvboxDark";
     Everforest = "oomox-Everforest";
     Kanagawa = "oomox-Kanagawa";
+    ModusOperandi = "oomox-ModusOperandi";
+    ModusVivendi = "oomox-ModusVivendi";
     Monokai = "oomox-Monokai";
     MonokaiPro = "oomox-MonokaiPro";
     Nord = "oomox-Nord";
@@ -37,8 +41,8 @@ let
     Vscode = "oomox-Vscode";
     Zenburn = "oomox-Zenburn";
   };
-  currentTheme = "Monokai";
-  currentIconTheme = "Monokai";
+  currentTheme = "ModusVivendi";
+  currentIconTheme = "ModusVivendi";
   themeColors = themes.${currentTheme};
   iconThemeColors = iconThemes.${currentIconTheme};
 in

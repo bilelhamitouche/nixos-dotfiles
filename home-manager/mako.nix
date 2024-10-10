@@ -32,6 +32,16 @@ let
       foreground = "#dcd7baff";
       highlight = "#76946aff";
     };
+    ModusOperandi = {
+      background = "#ffffffff";
+      foreground = "#000000ff";
+      highlight = "#0031a9ff";
+    };
+    ModusVivendi = {
+      background = "#000000ff";
+      foreground = "#ffffffff";
+      highlight = "#2faffffff";
+    };
     Monokai = {
       background = "#272822ff";
       foreground = "#f8f8f2ff";
@@ -83,13 +93,13 @@ let
       highlight = "#f0dfafff";
     };
   };
-  currentTheme = "Monokai";
+  currentTheme = "ModusVivendi";
   themeColors = themes.${currentTheme};
 in
 {
   services.mako = {
     enable = true;
-    font = "CaskaydiaCove Nerd Font Bold 9";
+    font = "JetBrainsMono Nerd Font Bold 9";
     icons = true;
     textColor = themeColors.foreground;
     backgroundColor = themeColors.background;

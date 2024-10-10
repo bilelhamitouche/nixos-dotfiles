@@ -26,6 +26,14 @@ let
       active = "rgba(76946aff) rgba(2b3328ff) 45deg";
       inactive = "rgba(54546dff)";
     };
+    ModusOperandi = {
+      active = "rgba(0031a9ff) rgba(006800ff) 45deg";
+      inactive = "rgba(595959ff)";
+    };
+    ModusVivendi = {
+      active = "rgba(2fafffff) rgba(44bc44ff) 45deg";
+      inactive = "rgba(989898ff)";
+    };
     Monokai = {
       active = "rgba(6c99bbff) rgba(9e86c8ff) 45deg";
       inactive = "rgba(797979ff)";
@@ -67,7 +75,7 @@ let
       inactive = "rgba(5f5f5fff)";
     };
   };
-  currentTheme = "Monokai";
+  currentTheme = "ModusVivendi";
   themeColors = themes.${currentTheme};
 in
 {

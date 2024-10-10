@@ -86,6 +86,34 @@ let
       inactive = "#54546d";
       active = "#76946a";
     };
+    ModusOperandi = {
+      background = "#ffffff";
+      foreground = "#000000";
+      red = "#a60000";
+      green = "#006800";
+      yellow = "#6f5500";
+      orange = "#80601f";
+      blue = "#0031a9";
+      magenta = "#721045";
+      cyan = "#005e8b";
+      gray = "#595959";
+      inactive = "#595959";
+      active = "#0031a9";
+    };
+    ModusVivendi = {
+      background = "#000000";
+      foreground = "#ffffff";
+      red = "#ff5f59";
+      green = "#44bc44";
+      yellow = "#d0bc00";
+      orange = "#c0965b";
+      blue = "#2fafff";
+      magenta = "#feacd0";
+      cyan = "#00d3d0";
+      gray = "#989898";
+      inactive = "#989898";
+      active = "#2fafff";
+    };
     Monokai = {
       background = "#272822";
       foreground = "#f8f8f2";
@@ -227,7 +255,7 @@ let
       active = "#f0dfaf";
     };
   };
-  currentTheme = "Monokai";
+  currentTheme = "ModusVivendi";
   themeColors = themes.${currentTheme};
 in
 {
@@ -328,7 +356,7 @@ in
     };
     style = ''
         * {
-            font-family: CaskaydiaCove Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+            font-family: JetBrainsMono Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
             font-size: 12px;
             font-weight: bold;
             background: rgba(0, 0, 0, 0);

@@ -11,6 +11,8 @@
         GruvboxDark = "gruvbox";
         Everforest = "everforest";
         Kanagawa = "kanagawa";
+        ModusOperandi = "modus_operandi";
+        ModusVivendi = "modus_vivendi";
         Monokai = "monokai-pro-classic";
         MonokaiPro = "monokai-pro-default";
         Nord = "nord";
@@ -22,7 +24,7 @@
         Vscode = "vscode";
         Zenburn = "zenburn";
       };
-      currentTheme = "Monokai";
+      currentTheme = "ModusVivendi";
       themeColors = themes.${currentTheme};
     in
     {

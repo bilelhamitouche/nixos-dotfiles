@@ -38,6 +38,18 @@ let
       highlight = "76946aff";
       match = "dca561ff";
     };
+    ModusOperandi = {
+      background = "ffffffff";
+      foreground = "000000ff";
+      highlight = "0031a9ff";
+      match = "a60000ff";
+    };
+    ModusVivendi = {
+      background = "000000ff";
+      foreground = "ffffffff";
+      highlight = "2fafffff";
+      match = "ff5f59ff";
+    };
     Monokai = {
       background = "272822ff";
       foreground = "f8f8f2ff";
@@ -99,7 +111,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Monokai";
+  currentTheme = "ModusVivendi";
   themeColors = themes.${currentTheme};
 in
 {
@@ -107,7 +119,7 @@ in
     enable = true;
     settings = {
       main = {
-        font = "CaskaydiaCove Nerd Font:bold:size=10";
+        font = "JetBrainsMono Nerd Font:bold:size=10";
         icons-enabled = true;
         fuzzy = true;
         anchor = "center";
