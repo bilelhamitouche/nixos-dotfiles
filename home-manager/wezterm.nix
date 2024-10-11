@@ -8,8 +8,8 @@ let
     Everforest = "Everforest Dark (Gogh)";
     GruvboxDark = "GruvboxDark";
     Kanagawa = "Kanagawa (Gogh)";
-    ModusOperandi = "Modus Operandi (Gogh)";
-    ModusVivendi = "Modus Vivendi (Gogh)";
+    ModusOperandi = "Modus-Operandi";
+    ModusVivendi = "Modus-Vivendi";
     Monokai = "Monokai (base16)";
     MonokaiPro = "Monokai Pro (Gogh)";
     Nord = "Nord (Gogh)";
@@ -21,7 +21,7 @@ let
     Vscode = "Dark+";
     Zenburn = "Zenburn";
   };
-  currentTheme = "ModusVivendi";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
 in
 {

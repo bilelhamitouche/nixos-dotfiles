@@ -111,7 +111,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "ModusVivendi";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
 in
 {

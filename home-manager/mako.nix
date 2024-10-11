@@ -40,7 +40,7 @@ let
     ModusVivendi = {
       background = "#000000ff";
       foreground = "#ffffffff";
-      highlight = "#2faffffff";
+      highlight = "#2fafffff";
     };
     Monokai = {
       background = "#272822ff";
@@ -93,7 +93,7 @@ let
       highlight = "#f0dfafff";
     };
   };
-  currentTheme = "ModusVivendi";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
 in
 {

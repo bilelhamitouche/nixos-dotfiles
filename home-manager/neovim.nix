@@ -24,7 +24,7 @@
         Vscode = "vscode";
         Zenburn = "zenburn";
       };
-      currentTheme = "ModusVivendi";
+      currentTheme = "TokyoNight";
       themeColors = themes.${currentTheme};
     in
     {

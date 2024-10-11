@@ -41,8 +41,8 @@ let
     Vscode = "oomox-Vscode";
     Zenburn = "oomox-Zenburn";
   };
-  currentTheme = "ModusVivendi";
-  currentIconTheme = "ModusVivendi";
+  currentTheme = "TokyoNight";
+  currentIconTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
   iconThemeColors = iconThemes.${currentIconTheme};
 in

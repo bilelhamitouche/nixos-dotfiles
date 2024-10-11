@@ -255,7 +255,7 @@ let
       active = "#f0dfaf";
     };
   };
-  currentTheme = "ModusVivendi";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
 in
 {

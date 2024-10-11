@@ -75,7 +75,7 @@ let
       inactive = "rgba(5f5f5fff)";
     };
   };
-  currentTheme = "ModusVivendi";
+  currentTheme = "TokyoNight";
   themeColors = themes.${currentTheme};
 in
 {
