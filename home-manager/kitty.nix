@@ -26,7 +26,7 @@ let
     Vscode = "VSCode_Dark";
     Zenburn = "Zenburn";
   };
-  currentTheme = "TokyoNight";
+  currentTheme = "Dracula";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in
@@ -34,7 +34,7 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "JetBrainsMono Nerd Font Bold";
+      name = "CaskaydiaCove NF Bold";
       size = 11.5;
     };
     theme = themeColors;

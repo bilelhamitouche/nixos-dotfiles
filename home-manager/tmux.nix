@@ -129,7 +129,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "TokyoNight";
+  currentTheme = "Dracula";
   themeColors = themes.${currentTheme};
 in
 {

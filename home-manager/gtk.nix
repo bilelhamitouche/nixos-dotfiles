@@ -41,8 +41,8 @@ let
     Vscode = "oomox-Vscode";
     Zenburn = "oomox-Zenburn";
   };
-  currentTheme = "TokyoNight";
-  currentIconTheme = "TokyoNight";
+  currentTheme = "Dracula";
+  currentIconTheme = "Dracula";
   themeColors = themes.${currentTheme};
   iconThemeColors = iconThemes.${currentIconTheme};
 in

@@ -24,7 +24,7 @@
         Vscode = "vscode";
         Zenburn = "zenburn";
       };
-      currentTheme = "TokyoNight";
+      currentTheme = "Dracula";
       themeColors = themes.${currentTheme};
     in
     {
