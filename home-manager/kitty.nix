@@ -34,7 +34,7 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "CaskaydiaCove NF Bold";
+      name = "GeistMono NF Bold";
       size = 11.5;
     };
     theme = themeColors;
