@@ -24,7 +24,7 @@
         Vscode = "vscode";
         Zenburn = "zenburn";
       };
-      currentTheme = "Dracula";
+      currentTheme = "Catppuccin";
       themeColors = themes.${currentTheme};
     in
     {
@@ -47,6 +47,7 @@
         nord-nvim
         nightfox-nvim
         onedark-nvim
+        palenightfall-nvim
         rose-pine
         NeoSolarized
         tokyonight-nvim

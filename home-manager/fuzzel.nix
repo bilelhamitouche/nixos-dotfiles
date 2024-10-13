@@ -111,7 +111,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Dracula";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {

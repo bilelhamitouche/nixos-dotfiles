@@ -129,7 +129,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "Dracula";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {

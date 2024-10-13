@@ -255,7 +255,7 @@ let
       active = "#f0dfaf";
     };
   };
-  currentTheme = "Dracula";
+  currentTheme = "Catppuccin";
   themeColors = themes.${currentTheme};
 in
 {
