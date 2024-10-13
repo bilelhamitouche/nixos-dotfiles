@@ -44,6 +44,10 @@ lspconfig.html.setup({
 	capabilities = capabilities,
 })
 
+lspconfig.eslint.setup({
+	capabilities = capabilities,
+})
+
 lspconfig.lua_ls.setup({
 	capabilities = capabilities,
 	settings = {
@@ -82,6 +86,9 @@ lspconfig.tailwindcss.setup({
 lspconfig.tsserver.setup({
 	capabilities = capabilities,
 	init_options = {
+		preferences = {
+			disableSuggestions = true,
+		},
 		plugins = {
 			{
 				name = "@vue/typescript-plugin",
