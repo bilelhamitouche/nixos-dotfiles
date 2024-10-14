@@ -29,9 +29,9 @@ in
     enable = true;
     extraConfig = ''
       return {
-        font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Black" }),
+        font = wezterm.font("GeistMono Nerd Font", { weight = "Bold" }),
         font_size = 11.0,
-        line_height = 1.4,
+        line_height = 1.2,
         default_cursor_style = "BlinkingBar",
         bold_brightens_ansi_colors = "No",
         color_scheme = "${themeColors}",

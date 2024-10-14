@@ -34,8 +34,8 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "JetBrainsMono NF Bold";
-      size = 11.5;
+      name = "GeistMono NF Bold";
+      size = 11.0;
     };
     theme = themeColors;
     settings = {
