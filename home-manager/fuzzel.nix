@@ -111,7 +111,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
 in
 {

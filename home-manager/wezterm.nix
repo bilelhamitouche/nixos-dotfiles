@@ -21,7 +21,7 @@ let
     Vscode = "Vs Code Dark+ (Gogh)";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
 in
 {

@@ -93,7 +93,7 @@ let
       highlight = "#f0dfafff";
     };
   };
-  currentTheme = "Catppuccin";
+  currentTheme = "Everforest";
   themeColors = themes.${currentTheme};
 in
 {

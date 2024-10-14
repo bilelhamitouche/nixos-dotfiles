@@ -24,7 +24,7 @@
         Vscode = "vscode";
         Zenburn = "zenburn";
       };
-      currentTheme = "Catppuccin";
+      currentTheme = "Everforest";
       themeColors = themes.${currentTheme};
     in
     {
