@@ -119,7 +119,7 @@ in
     enable = true;
     settings = {
       main = {
-        font = "GeistMono Nerd Font:bold:size=10";
+        font = "JetBrainsMono Nerd Font:bold:size=10";
         icons-enabled = true;
         fuzzy = true;
         anchor = "center";
