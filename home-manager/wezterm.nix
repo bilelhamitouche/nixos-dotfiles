@@ -15,13 +15,14 @@ let
     Nord = "Nord (Gogh)";
     Nightfox = "nightfox";
     OneDark = "OneDark (base16)";
+    Oxocarbon = "Oxocarbon";
     RosePine = "rose-pine";
     Solarized = "Solarized (dark) (terminal.sexy)";
     TokyoNight = "Tokyo Night";
     Vscode = "Vs Code Dark+ (Gogh)";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Everforest";
+  currentTheme = "Vscode";
   themeColors = themes.${currentTheme};
 in
 {
@@ -29,9 +30,9 @@ in
     enable = true;
     extraConfig = ''
       return {
-        font = wezterm.font("GeistMono Nerd Font", { weight = "Bold" }),
+        font = wezterm.font("Hack Nerd Font", { weight = "Bold" }),
         font_size = 11.0,
-        line_height = 1.2,
+        line_height = 1.4,
         default_cursor_style = "BlinkingBar",
         bold_brightens_ansi_colors = "No",
         color_scheme = "${themeColors}",

@@ -93,13 +93,13 @@ let
       highlight = "#f0dfafff";
     };
   };
-  currentTheme = "Everforest";
+  currentTheme = "Vscode";
   themeColors = themes.${currentTheme};
 in
 {
   services.mako = {
     enable = true;
-    font = "GeistMono Nerd Font Bold 9";
+    font = "Hack Nerd Font Bold 9";
     icons = true;
     textColor = themeColors.foreground;
     backgroundColor = themeColors.background;

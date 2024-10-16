@@ -24,7 +24,7 @@
         Vscode = "vscode";
         Zenburn = "zenburn";
       };
-      currentTheme = "Everforest";
+      currentTheme = "Vscode";
       themeColors = themes.${currentTheme};
     in
     {
@@ -55,6 +55,8 @@
         everforest
         vscode-nvim
         material-nvim
+        melange-nvim
+        cyberdream-nvim
         oxocarbon-nvim
         modus-themes-nvim
 

@@ -245,6 +245,7 @@
     gimp
     inkscape
     obs-studio
+    postman
     mcomix
     spotify
     deluge-gtk

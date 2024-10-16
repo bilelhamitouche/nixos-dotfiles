@@ -129,7 +129,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "Everforest";
+  currentTheme = "Vscode";
   themeColors = themes.${currentTheme};
 in
 {

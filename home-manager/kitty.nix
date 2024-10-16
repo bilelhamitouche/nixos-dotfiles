@@ -26,7 +26,7 @@ let
     Vscode = "VSCode_Dark";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Everforest";
+  currentTheme = "Vscode";
   themeColors = themes.${currentTheme};
   option = if currentTheme == "MonokaiPro" then "background #2d2a2e" else "#background ''";
 in
@@ -34,7 +34,7 @@ in
   programs.kitty = {
     enable = true;
     font = {
-      name = "GeistMono NF Bold";
+      name = "Hack Nerd Font Bold";
       size = 11.0;
     };
     theme = themeColors;

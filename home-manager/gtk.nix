@@ -41,8 +41,8 @@ let
     Vscode = "oomox-Vscode";
     Zenburn = "oomox-Zenburn";
   };
-  currentTheme = "Everforest";
-  currentIconTheme = "Everforest";
+  currentTheme = "Vscode";
+  currentIconTheme = "Vscode";
   themeColors = themes.${currentTheme};
   iconThemeColors = iconThemes.${currentIconTheme};
 in
