@@ -111,7 +111,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Vscode";
+  currentTheme = "Ayu";
   themeColors = themes.${currentTheme};
 in
 {
@@ -119,7 +119,7 @@ in
     enable = true;
     settings = {
       main = {
-        font = "Hack Nerd Font:bold:size=10";
+        font = "RecMonoLinear Nerd Font:bold:size=10";
         icons-enabled = true;
         fuzzy = true;
         anchor = "center";

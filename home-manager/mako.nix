@@ -93,13 +93,13 @@ let
       highlight = "#f0dfafff";
     };
   };
-  currentTheme = "Vscode";
+  currentTheme = "Ayu";
   themeColors = themes.${currentTheme};
 in
 {
   services.mako = {
     enable = true;
-    font = "Hack Nerd Font Bold 9";
+    font = "RecMonoLinear Nerd Font Bold 9";
     icons = true;
     textColor = themeColors.foreground;
     backgroundColor = themeColors.background;

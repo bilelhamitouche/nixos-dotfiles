@@ -22,7 +22,7 @@ let
     Vscode = "Vs Code Dark+ (Gogh)";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Vscode";
+  currentTheme = "Ayu";
   themeColors = themes.${currentTheme};
 in
 {
@@ -30,7 +30,7 @@ in
     enable = true;
     extraConfig = ''
       return {
-        font = wezterm.font("Hack Nerd Font", { weight = "Bold" }),
+        font = wezterm.font("RecMonoLinear Nerd Font", { weight = "Bold" }),
         font_size = 11.0,
         line_height = 1.4,
         default_cursor_style = "BlinkingBar",
