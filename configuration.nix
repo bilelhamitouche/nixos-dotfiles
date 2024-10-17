@@ -99,6 +99,13 @@
       alsa.support32Bit = true;
       pulse.enable = true;
     };
+    postgresql = {
+      enable = true;
+      authentication = pkgs.lib.mkOverride 10 ''
+        #type database  DBuser  auth-method
+        local all       all     trust
+      '';
+    };
   };
 
   # Security
@@ -215,7 +222,6 @@
     php82Packages.composer
     mysql
     sqlite
-    postgresql
     python3Full
     python311Packages.pip
     python311Packages.pipx
