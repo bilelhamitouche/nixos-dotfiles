@@ -22,7 +22,7 @@ let
     Vscode = "Vs Code Dark+ (Gogh)";
     Zenburn = "Zenburn";
   };
-  currentTheme = "Ayu";
+  currentTheme = "Monokai";
   themeColors = themes.${currentTheme};
 in
 {

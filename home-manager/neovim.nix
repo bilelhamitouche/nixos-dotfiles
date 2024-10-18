@@ -24,7 +24,7 @@
         Vscode = "vscode";
         Zenburn = "zenburn";
       };
-      currentTheme = "Ayu";
+      currentTheme = "Monokai";
       themeColors = themes.${currentTheme};
     in
     {

@@ -93,7 +93,7 @@ let
       highlight = "#f0dfafff";
     };
   };
-  currentTheme = "Ayu";
+  currentTheme = "Monokai";
   themeColors = themes.${currentTheme};
 in
 {

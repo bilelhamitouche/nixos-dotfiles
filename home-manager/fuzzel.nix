@@ -111,7 +111,7 @@ let
       match = "cc9393ff";
     };
   };
-  currentTheme = "Ayu";
+  currentTheme = "Monokai";
   themeColors = themes.${currentTheme};
 in
 {

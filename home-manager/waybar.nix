@@ -255,7 +255,7 @@ let
       active = "#f0dfaf";
     };
   };
-  currentTheme = "Ayu";
+  currentTheme = "Monokai";
   themeColors = themes.${currentTheme};
 in
 {

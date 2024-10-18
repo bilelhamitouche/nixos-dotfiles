@@ -129,7 +129,7 @@ let
       gray = "#4f4f4f";
     };
   };
-  currentTheme = "Ayu";
+  currentTheme = "Monokai";
   themeColors = themes.${currentTheme};
 in
 {
